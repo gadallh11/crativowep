@@ -1,0 +1,1434 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}  
+
+:root {
+    --bg-color: #000000;
+    --bg-color2: #212429;
+    --color1: #5cd2b8;
+    --color2: #ffffff;
+    --font-size1: 1.8em;
+    --font-size2: 1.1em;
+    --font-size3: 0.8em;
+}
+
+/*---------------------------------- Header section ----------------------------------*/
+
+
+nav {
+    padding: 0 100px;
+    background: linear-gradient(to left, #151515 100%, #5cd2b8 2%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--color1);
+}
+
+.d1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0;
+}
+
+
+
+.h5 {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 10px;
+    margin-top: 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.s1 {
+    color: var(--color1);
+}
+
+nav a {
+    color: var(--color2);
+    padding-left: 30px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+section {
+    padding: 10px 200px;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/*---------------------------------- Main section ----------------------------------*/
+
+.main {
+    width: 100%;
+    background-image: linear-gradient(270deg,
+            hsla(167, 57%, 59%, 0.171),
+            rgb(0, 0, 0)),
+        url(portrait.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.main div {
+    position: relative;
+}
+
+.d2 {
+    display: flex;
+    align-items: center;
+    background-color: none;
+    margin-top: 30px;
+    position: relative;
+    top: 30.5px;
+    left: 12.5px;
+    z-index: 998;
+    font-size: 70px;
+}
+
+.main .circle1 {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    left: 24px;
+    z-index: 997;
+}
+
+.main .circle2 {
+    width: 75px;
+    height: 40px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-size: 30px;
+    background-color: #2f4b44;
+    outline: 2px solid #2f4b44;
+    opacity: 250%;
+    position: absolute;
+    top: 390px;
+    left: 12px;
+    z-index: 995;
+}
+
+.main .circle3 {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    background-color: #3b8272;
+    border-radius: 50%;
+    position: absolute;
+    top: 357px;
+    left: 14.5px;
+    z-index: 996;
+}
+
+.main .circle4 {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    background-color: #5cd2b8;
+    border-radius: 50%;
+    opacity: 20%;
+    position: absolute;
+    top: 352px;
+    left: 9.5px;
+    z-index: 994;
+}
+
+.background {
+    width: 550px;
+    position: absolute;
+    top: -50px;
+    right: -1px;
+    filter: drop-shadow(50px -370px 300px hsl(167, 57%, 59%, 1.1));
+}
+
+p {
+    color: var(--color2);
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #c7c7c7;
+    line-height: 25px;
+}
+
+.p3 {
+    color: var(--color1);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+h2 {
+    color: var(--color2);
+    font-size: 3.5em;
+    padding-bottom: 10px;
+}
+
+span {
+    color: var(--color1);
+}
+
+.pp1 {
+    color: var(--color1);
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    position: absolute;
+    top: 430px;
+    left: 111px;
+}
+
+.main div a {
+    margin: 2px;
+    padding: 5px;
+    font-size: 60px;
+}
+
+.d2 {
+    display: flex;
+    align-items: center;
+    background-color: none;
+    margin-top: 5px;
+}
+
+.s1 {
+    color: var(--color2);
+    font-size: 13px;
+    font-weight: 530;
+    letter-spacing: 3px;
+    padding: 5px 10px 0 0;
+    position: absolute;
+    top: 370px;
+    left: 110px;
+}
+
+.fa-github {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.hr1 {
+    margin-bottom: 55px;
+    margin-right: 465px;
+    border: 1.6px solid var(--color1);
+}
+
+.p2 {
+    position: absolute;
+    top: 435px;
+    left: 283px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #5cd2b8;
+}
+
+.hr2 {
+    margin-top: 13px;
+    margin-left: 110px;
+    margin-right: 350px;
+    border-color: #000000;
+}
+
+/* ----------------------------------Services section---------------------------------- */
+
+.services {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 74vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.our {
+    margin-bottom: 50px;
+}
+
+.h1 {
+    color: var(--color2);
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.hr3 {
+    margin-bottom: 10px;
+    margin-right: 360px;
+    border-color: var(--color1);
+}
+
+.d3 a {
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 10px;
+    font-size: 0.2em;
+}
+
+.coupon {
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+
+.coupon2 {
+    width: 230px;
+    height: 170px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.img-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.container h2 {
+    font-size: 15px;
+}
+
+.l {
+    font-size: 11px;
+}
+
+.co1 {
+    background-color: #0c0c0c;
+    position: absolute;
+    bottom: -20px;
+    left: 130px;
+    padding-top: 50%;
+}
+
+.co2 {
+    position: absolute;
+    top: 35px;
+    left: 130px;
+    background-image: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.842),
+            hsla(167, 57%, 59%, 0.342));
+}
+
+.co3 {
+    position: absolute;
+    bottom: -38px;
+    left: 375px;
+    background-image: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.842),
+            hsla(167, 57%, 59%, 0.342));
+}
+
+.co4 {
+    position: absolute;
+    top: 54px;
+    left: 375px;
+    background-color: #0c0c0c;
+}
+
+/* ----------------------------------About Us section---------------------------------- */
+
+.about-us {
+    width: 100%;
+    background-color: #151515;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about-us img {
+    width: 350px;
+    height: 390px;
+    position: absolute;
+    bottom: 0px;
+    left: 205px;
+}
+
+.about {
+    position: absolute;
+    left: 775px;
+    top: 70px;
+}
+
+.hr4 {
+    margin-bottom: 10px;
+    margin-right: 350px;
+    border-color: var(--color1);
+}
+
+.clean1 img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 210px;
+    left: -5px;
+}
+
+.clean2 img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 210px;
+    left: 230px;
+}
+
+.ll {
+    font-size: 10px;
+}
+
+.clean1 {
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.clean2 {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.codee {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hh {
+    font-size: 15px;
+}
+
+/* ----------------------------------Per section ----------------------------------*/
+
+.per {
+    width: 100%;
+    background-image: linear-gradient(270deg,
+            rgba(0, 0, 0, 0.788),
+            hsla(167, 57%, 59%, 0.171)),
+        url(right.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 42vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.per div {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.per div p {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color1);
+}
+
+.grade {
+    color: white;
+    font-weight: 300;
+}
+
+.per div .pp {
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--color2);
+}
+
+.per div img {
+    width: 60px;
+    height: 60px;
+}
+
+/* ----------------------------------latest Project section ----------------------------------*/
+
+.latest-project {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.project {
+    margin-bottom: 250px;
+}
+
+.hr5 {
+    margin-bottom: 10px;
+    margin-right: 610px;
+    border-color: var(--color1);
+}
+
+.ppp {
+    margin-top: 40px;
+    line-height: 15px;
+}
+
+.project div .g5 {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    bottom: 40px;
+    top: 320px;
+}
+
+.project div .g4 {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    bottom: 70px;
+    left: 550px;
+}
+
+.picture .g9 {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    right: 210px;
+    top: 70px;
+}
+
+.picture .g1 {
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    right: 210px;
+    bottom: 70px;
+}
+
+.fa-check {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.ss {
+    color: var(--color2);
+    font-size: 10px;
+}
+
+.divvv {
+    margin-top: 20px;
+}
+
+.divvv .fa-circle-check {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.ss {
+    font-weight: 500;
+    font-size: 11px;
+}
+
+/* ----------------------------------Per2 section ----------------------------------*/
+
+.per2 {
+    width: 100%;
+    background-image: linear-gradient(270deg,
+            hsla(167, 57%, 59%, 0.171),
+            rgba(0, 0, 0, 0.788)),
+        url(left.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 32vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.per2 div {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.per2 div img {
+    width: 170px;
+    height: 80px;
+    filter: grayscale();
+}
+
+/* ----------------------------------Choose section ----------------------------------*/
+
+.choose {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ch1 .apelah {
+    width: 420px;
+    height: 230px;
+    margin-top: 50px;
+}
+
+.ch1 {
+    margin-bottom: 20px;
+}
+
+.ch2 {
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+.ch2 .girl {
+    width: 420px;
+    height: 230px;
+    margin-top: 90px;
+}
+
+.ch1 .fa-circle-play {
+    font-size: 100px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 150px;
+    right: 530px;
+    opacity: 70%;
+}
+
+.ch2 .fa-circle-play {
+    font-size: 100px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: 220px;
+    left: 368px;
+    opacity: 70%;
+}
+
+/* ----------------------------------Team section---------------------------------- */
+
+.team {
+    background-image: linear-gradient(270deg, #151515b0, rgba(0, 0, 0, 0.747)),
+        url(Bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr6 {
+    margin-left: 100px;
+    margin-right: 120px;
+    border-color: var(--color1);
+}
+
+/* ----------------------------------Team2 section ----------------------------------*/
+
+.team2 {
+    background-image: linear-gradient(270deg, #151515b0, rgba(0, 0, 0, 0.747)),
+        url(Bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.tt1 {
+    width: 180px;
+    height: 180px;
+    filter: grayscale();
+    position: absolute;
+    top: 40px;
+    left: 220px;
+}
+
+.tt h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tt .pp {
+    color: var(--color1);
+    margin-bottom: 8px;
+}
+
+.tt .lorem {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.tt div {
+    margin-bottom: 20px;
+}
+
+.tt div i {
+    margin-left: 10px;
+}
+
+.t2 {
+    width: 400px;
+    height: 180px;
+    margin: 30px;
+    
+    
+}
+
+.tttt {
+    margin: 5px;
+    display: flex;
+    justify-content:end;
+    background-color: #151515;
+    width: 380px;
+    height: 200px;
+    padding: 20px;
+    right: 100px;
+
+}
+
+.tt2 {
+    width: 180px;
+    height: 180px;
+    filter: grayscale();
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+.tt3 {
+    width: 180px;
+    height: 180px;
+    filter: grayscale();
+    position: absolute;
+    top: 260px;
+    left: 220px;
+}
+
+.tt4 {
+    width: 180px;
+    height: 180px;
+    filter: grayscale();
+    position: absolute;
+    top: 260px;
+    right: 200px;
+}
+
+/* ----------------------------------latest Work section ----------------------------------*/
+
+.latest-work {
+    background-color: #000000;
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.latest-work .t1 {
+    margin-top: 40px;
+}
+
+.latest-work .pic img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+/* ----------------------------------Clients section ----------------------------------*/
+
+.clients {
+    width: 100%;
+    background-image: linear-gradient(270deg,
+            rgba(0, 0, 0, 0.788),
+            rgba(0, 0, 0, 0.788)),
+        url(adadad.jpg);
+    background-size: 100% 120%;
+    opacity: 95%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.our1 {
+    margin-left: 50px;
+}
+
+.card {
+    position: relative;
+    margin-left: 180px;
+    border: 1px solid black;
+    background: #00000088;
+    padding: 20px;
+}
+
+.ppp {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 200;
+}
+ .card2{
+    width: 200px ;
+    height: 200px;
+
+ }
+
+.card2 div {
+    position: relative;
+}
+
+
+.sss {
+    color: var(--color2);
+    position: absolute;
+    top: 23px;
+    left: 50px;
+    font-size: 10x;
+}
+
+.sss1 {
+    font-size: 10px;
+    margin-left: 43px;
+    position: absolute;
+    top: 50px;
+    left: 8px;
+}
+
+.card2 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.card2 i {
+    font-size: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 70px;
+}
+
+/* ----------------------------------latest news section ----------------------------------*/
+
+.latest-news {
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lll {
+    font-size: 2px;
+}
+
+.blog {
+    margin-top: 30px;
+}
+
+.latest-news .pic {
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    
+}
+
+.latest-news .pic img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+.ii {
+    font-size: 10px;
+}
+
+.blog-p {
+    color: #5cd2b8;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.blog-pp {
+    margin-left: 10px;
+}
+
+.fa-calendar-days {
+    margin-left: 10px;
+}
+
+.fa-rectangle-list {
+    margin-left: 20px;
+}
+
+/* ----------------------------------Contact Us section ----------------------------------*/
+
+.contact-us {
+    background-image: linear-gradient(270deg, #0c0c0cd8, #0c0c0cd7), url(bbb.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+form {
+    margin-top: 48px;
+    width: 300px;
+    height: 350px;
+    color: var(--color1);
+    font-size: 15px;
+    padding: 10px;
+    border: 2px solid var(--color1);
+    
+}
+
+.contact {
+    margin-left: 40px;
+    margin-top: 65px;
+}
+
+.box {
+    width: 280px;
+    height: 30px;
+    background-color: #131213;
+    border: none;
+    border: 1px solid var(--color1);
+    margin-bottom: 5px;
+}
+
+.box1 {
+    height: 140px;
+}
+
+.button {
+    width: 280px;
+    height: 30px;
+    color: var(--color2);
+    background-color: var(--color1);
+    border: none;
+}
+
+.contact2 {
+    margin-top: 20px;
+}
+
+.sss2 {
+    color: var(--color2);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sss3 {
+    color: var(--color1);
+    font-size: 10px;
+    margin-left: 35px;
+}
+
+.con {
+    margin-bottom: 15px;
+}
+
+.fa-location-dot {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-phone {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.fa-envelope-open {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+/* ----------------------------------Footer section ----------------------------------*/
+
+footer {
+    background: rgb(92, 210, 184);
+    background: radial-gradient(circle,
+            rgba(92, 210, 185, 0.822) -650%,
+            rgba(1, 5, 4, 1) 70%);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+footer .f1 a {
+    position: relative;
+    bottom: 80px;
+    left: 1px;
+}
+
+.hh1 {
+    color: white;
+    font-size: 10px;
+    margin-top: 0;
+    position: relative;
+    bottom: 80px;
+    left: 1px;
+}
+
+.f2 a {
+    color: var(--color1);
+    padding-left: 30px;
+    font-size: 0.8em;
+    font-weight: 500;
+    position: relative;
+    bottom: 30px;
+}
+
+footer p {
+    position: relative;
+    top: 10px;
+}
+
+.icon i {
+    position: relative;
+    top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer .copyright {
+    position: relative;
+    top: 130px;
+    font-size: 10px;
+}
+
+/* ----------------------------------Media query ----------------------------------*/
+
+/**
+ *  Responsive Grid Media Queries - 1280, 1024, 768, 480
+ *   1280-1024   - desktop (default grid)
+ *   1024-768    - tablet landscape
+ *   768-480     - tablet 
+ *   480-less    - phone landscape & smaller
+ * --------------------------------------------
+ */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        font-size: 2em;
+    }
+
+    nav a {
+        padding-left: 10px;
+        font-size: 0.68em;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 125px;
+    }
+
+    .h5 {
+        font-size: 7.5px;
+        top: -5px;
+        left: 28px;
+    }
+
+    section {
+        padding: 10px 135px;
+    }
+
+    .p3 {
+        font-size: 11.5px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+
+    h2 {
+        font-size: 3em;
+        padding-bottom: 10px;
+    }
+
+    .hr1 {
+        margin-bottom: 55px;
+        margin-right: 400px;
+        border: 1.6px solid var(--color1);
+    }
+
+    p {
+        padding-bottom: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .hr2 {
+        margin-top: 25px;
+        margin-left: 110px;
+        margin-right: 270px;
+    }
+
+    .pp1 {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        top: 410px;
+        left: 111px;
+    }
+
+    .d2 {
+        margin-top: 30px;
+        position: relative;
+        top: 50px;
+        left: 12.5px;
+        font-size: 70px;
+    }
+
+    /* -------------------------------------- */
+
+    .h1 {
+        font-size: 1.7em;
+    }
+
+    .services .our .p3 {
+        font-size: 8px;
+        font-weight: 700;
+    }
+
+    .services .our .p1 {
+        font-size: 8px;
+        font-weight: 700;
+    }
+
+    .services .our .hr3 {
+        margin-right: 180px;
+    }
+
+    .services {
+        height: 60vh;
+    }
+
+    .d3 a {
+        padding: 10px;
+        font-size: 10px;
+        position: absolute;
+        top: -55px;
+    }
+
+    .img-1 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .container h2 {
+        font-size: 13px;
+    }
+
+    .l {
+        font-size: 9px;
+    }
+
+    .coupon2 {
+        width: 200px;
+        height: 140px;
+    }
+
+    .co1 {
+        position: absolute;
+        bottom: -20px;
+        left: 70px;
+    }
+
+    .co2 {
+        position: absolute;
+        top: 35px;
+        left: 70px;
+    }
+
+    .co3 {
+        position: absolute;
+        bottom: -38px;
+        left: 290px;
+    }
+
+    .co4 {
+        position: absolute;
+        top: 54px;
+        left: 290px;
+    }
+
+    /* -------------------------------------- */
+
+    .about-us img {
+        width: 290px;
+        height: 360px;
+        position: absolute;
+        bottom: 0px;
+        left: 140px;
+    }
+
+    .about {
+        position: absolute;
+        left: 473px;
+        top: 70px;
+    }
+
+    .hr4 {
+        margin-bottom: 10px;
+        margin-right: 300px;
+    }
+
+    .clean1 img {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 190px;
+        left: -5px;
+    }
+
+    .clean2 img {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 190px;
+        left: 185px;
+    }
+
+    .ll {
+        font-size: 8px;
+    }
+
+    .hh {
+        font-size: 12px;
+    }
+
+    .clean1 {
+        margin-right: 12px;
+        margin-left: 40px;
+        margin-top: 17px;
+    }
+
+    .clean2 {
+        /* margin-left: 20px; */
+        margin-top: 17px;
+    }
+
+    .codee {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* -------------------------------------- */
+
+    .ppp {
+        width: 400px;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project div .g5 {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        bottom: 65px;
+    }
+
+    .project div .g4 {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: 395px;
+        bottom: 65px;
+    }
+
+    .picture .g9 {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: 80px;
+        top: 70px;
+    }
+
+    .picture .g1 {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: 80px;
+        bottom: 65px;
+    }
+
+    .hr5 {
+        margin-right: 400px;
+    }
+
+    /* -------------------------------------- */
+
+    .per2 div img {
+        width: 150px;
+        height: 60px;
+        filter: grayscale();
+    }
+
+    /* -------------------------------------- */
+
+    .ch1 .apelah {
+        width: 380px;
+        height: 210px;
+        margin-top: 45px;
+    }
+
+    .ch1 {
+        margin-bottom: 20px;
+    }
+
+    .ch2 {
+        margin-left: 30px;
+        margin-top: 70px;
+    }
+
+    .ch2 .girl {
+        width: 380px;
+        height: 210px;
+        margin-top: 60px;
+    }
+
+    .ch1 .fa-circle-play {
+        font-size: 80px;
+        font-weight: lighter;
+        position: absolute;
+        bottom: 200px;
+        right: 625px;
+        opacity: 70%;
+    }
+
+    .ch2 .fa-circle-play {
+        font-size: 80px;
+        font-weight: lighter;
+        position: absolute;
+        bottom: 100px;
+        left: 700px;
+        opacity: 70%;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .logo {
+        font-size: 2em;
+    }
+
+    nav a {
+        padding-left: 10px;
+        font-size: 0.7em;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 125px;
+    }
+
+    .h5 {
+        font-size: 7.5px;
+        top: -5px;
+        left: 28px;
+    }
+
+    section {
+        padding: 10px 135px;
+    }
+
+    .main div .p3 {
+        font-size: 11.5px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+
+    h2 {
+        font-size: 3em;
+        padding-bottom: 10px;
+    }
+
+    .hr1 {
+        margin-bottom: 55px;
+        margin-right: 400px;
+        border: 1.6px solid var(--color1);
+    }
+
+    p {
+        padding-bottom: 10px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+    .hr2 {
+        margin-top: 25px;
+        margin-left: 110px;
+        margin-right: 270px;
+    }
+
+    .pp1 {
+        padding-top: 10px;
+        margin-bottom: 10px;
+        font-size: 10px;
+        top: 410px;
+        left: 111px;
+    }
+
+    .d2 {
+        margin-top: 30px;
+        position: relative;
+        top: 50px;
+        left: 12.5px;
+        font-size: 70px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+/* @media all and (max-width: 480px) {}
+
+*/
